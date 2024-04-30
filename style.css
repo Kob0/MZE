@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #000;
+  background-color: darkolivegreen;
+}
+
+.header__container {
+  background-image: url('./img/sun.jpg');
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 25px;
+}
+
+.header__container h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: aquamarine;
+}
+
+.content__container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  padding: 15px 40px;
+}
+
+.content__header {
+  padding-bottom: 40px;
+
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #af1111;
+
+  background-image: url('./img/photo_2024-04-30_23-03-49.jpg');
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content__item {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: aquamarine;
+}
