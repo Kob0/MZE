@@ -47,6 +47,9 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
+
   min-height: 100%;
   overflow: hidden;
 }
@@ -63,10 +66,11 @@ body {
   color: aquamarine;
 }
 
-.content__container {
-  display: flex;
-  flex-direction: column;
+.content {
+  flex: 1 1 auto;
+}
 
+.content__container {
   text-align: center;
   padding: 15px 10px;
 }
@@ -96,5 +100,11 @@ body {
   font-size: 1.62rem;
   color: aquamarine;
 
-  border-top: 1px solid red;
+  border-top: 1px dashed red;
+}
+
+.footer {
+  color: aquamarine;
+  font-size: 2rem;
+  text-align: center;
 }
