@@ -40,6 +40,10 @@ body {
 }
 
 .header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
   background-image: url('./img/sun2.jpg');
   background-size: no-repeat;
   background-position: center;
@@ -61,8 +65,7 @@ body {
 }
 
 .header__container h1 {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.8rem;
   color: aquamarine;
 }
 
