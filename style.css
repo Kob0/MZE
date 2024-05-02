@@ -35,6 +35,8 @@ body {
   height: 100%;
   line-height: 1;
   font-size: 16px;
+  font-weight: 400;
+  font-family: 'Orelega One', serif;
   color: #000;
   background-color: darkolivegreen;
 }
@@ -65,7 +67,7 @@ body {
 }
 
 .header__container h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: aquamarine;
 }
 
@@ -75,13 +77,14 @@ body {
 
 .content__container {
   text-align: center;
-  padding: 15px 10px;
+  padding: 0px;
 }
 
 .content__header {
-  padding-bottom: 40px;
+  padding: 35px 0px;
 
-  font-size: 1.5rem;
+  width: 100%;
+  font-size: 1.8rem;
   text-decoration: underline;
   color: #af1111;
 
@@ -102,8 +105,6 @@ body {
 
   font-size: 1.62rem;
   color: aquamarine;
-
-  border-top: 1px dashed red;
 }
 
 .footer {
