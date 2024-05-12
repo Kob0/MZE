@@ -36,13 +36,15 @@ body {
 
   line-height: 1;
   font-size: 16px;
-  color: #000;
+  font-weight: 400;
   font-family: 'Orelega One', serif;
+  color: #000;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
 
   min-height: 100%;
   overflow: hidden;
