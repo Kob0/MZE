@@ -33,16 +33,11 @@ h6 {
 
 body {
   height: 100%;
+
   line-height: 1;
   font-size: 16px;
   color: #000;
-}
-
-.header__container {
-  background-image: url('./img/sun.jpg');
-  background-size: no-repeat;
-  background-position: center;
-  background-size: cover;
+  font-family: 'Orelega One', serif;
 }
 
 .wrapper {
@@ -53,17 +48,22 @@ body {
   overflow: hidden;
 }
 
-._container {
-  max-width: 1440px;
-  margin: 0px auto;
-  padding: 25px;
+.header__image {
+  padding: 80px;
+
+  background-image: url('./img/photo_2024-04-30_23-03-49.jpg');
+  background-size: cover;
+  background-size: no-repeat;
+  background-position: center;
 }
 
 .header__container h1 {
+  padding: 20px;
+
   width: 100%;
   font-size: 2rem;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 .content {
@@ -75,17 +75,13 @@ body {
   padding: 15px 0px;
 }
 
-.content__header {
-  padding-bottom: 40px;
+.header__content {
+  padding-bottom: 10px;
 
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
   text-decoration: underline;
   color: #af1111;
-
-  background-image: url('./img/photo_2024-04-30_23-03-49.jpg');
-  background-size: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .content__item {
